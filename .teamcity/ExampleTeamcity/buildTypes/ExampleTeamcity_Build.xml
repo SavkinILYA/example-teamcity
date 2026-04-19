@@ -28,7 +28,7 @@ echo "IS DEFAULT: %teamcity.build.branch.is_default%"]]></param>
       </runner>
       <runner id="Maven2_1" name="" type="Maven2">
         <conditions>
-          <equals name="%teamcity.build.branch%" value="master" />
+          <equals name="teamcity.build.branch" value="master" />
         </conditions>
         <parameters>
           <param name="goals" value="clean deploy" />
