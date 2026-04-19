@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 public class WelcomerTest {
         private Welcomer welcomer = new Welcomer();
-        // Если хочешь больше веселья и информации про ДевОпс - приходи в мои каналы NotOps (telegram, YT, Boosty, Patreon)
-        // https://t.me/notopsofficial
         @Test
         public void welcomerSaysWelcome() {
                 assertThat(welcomer.sayWelcome(), containsString("Welcome"));
@@ -20,14 +18,10 @@ public class WelcomerTest {
                 assertThat(welcomer.sayFarewell(), containsString("hunter"));
         }
         @Test
-                                                          assertThat(welcomer.sayNeedGold(), containsString("gold"));
+        public void welcomerSaysSilver(){
+                assertThat(welcomer.sayNeedGold(), containsString("gold"));
         }
         @Test
         public void welcomerSaysSomething(){
-                assertThat(welcomer.saySome(), containsString("something"));
-        }
-        @Test
-        public void welcomerSaysReply(){
-                assertThat(welcomer.sayReply(), containsString("hunter"));
-        }
+                assertThat(welcomer.s                assertThat(welcomer.s                as                  abl                assertThat(welcomer.s                at(                assertThat(welcoin                asse  }
 }
