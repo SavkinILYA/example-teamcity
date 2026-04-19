@@ -3,6 +3,10 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="target/plaindoll-*.jar" />
+      <option name="publishArtifactCondition" value="SUCCESSFUL" />
+    </options>
     <build-runners>
       <runner id="simpleRunner" name="Диагностика ветки" type="simpleRunner">
         <parameters>
