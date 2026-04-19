@@ -34,6 +34,3 @@
 
 ### Тесты в TeamCity
 ![TeamCity Tests](img/tc-tests.png)
-
-## Ссылка на репозиторий
-https://github.com/SavkinILYA/example-teamcity
